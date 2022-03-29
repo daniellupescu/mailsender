@@ -1,0 +1,18 @@
+spring:
+  mail:
+    host:
+    username:
+    password:
+    port:
+    properties:
+      mail:
+        smtp:
+          auth:
+          starttls:
+            enable:
+
+mail:
+  encoding: utf-8
+  from : no-reply@test.com
+  recipient: someone@test.com
+  subject: This is a fake email
